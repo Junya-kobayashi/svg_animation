@@ -1,0 +1,72 @@
+body {
+    background-image: url(../img/galaxy.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.box {
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+svg {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cls-1 {
+    stroke: #ffffff;
+    fill: none;
+    stroke-width: 0.1px;
+    stroke-dasharray: 3000;
+    stroke-dashoffset: 3000;
+    animation: DASH 20s ease-in alternate forwards;
+    -webkit-animation: DASH 20s ease-in 0s forwards;
+    -o-animation: DASH 20s ease-in 0s forwards;
+    animation: DASH 20s ease-in 0s forwards;
+}
+
+@keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
+
+@-moz-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
+
+@-webkit-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
+
+@-o-keyframes DASH {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
+
+@-ms-keyframes DASHf {
+    0% {
+        stroke-dashoffset: 3000;
+    }
+    100% {
+        stroke-dashoffset: 100;
+    }
+}
